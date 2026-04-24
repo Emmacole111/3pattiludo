@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06130B"/>
+      <stop offset="100%" stop-color="#0D2818"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#F5B400"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="360" height="640" fill="url(#bg)"/>
+
+  <!-- Status bar -->
+  <rect x="20" y="20" width="320" height="28" rx="8" fill="#ffffff" opacity="0.04"/>
+  <circle cx="36" cy="34" r="4" fill="#10B981"/>
+  <text x="48" y="38" font-family="Inter, Arial, sans-serif" font-size="12" fill="#94A3B8">3 Patti Ludo</text>
+  <text x="300" y="38" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FBBF24">PKR 12,450</text>
+
+  <!-- Hero card -->
+  <rect x="20" y="64" width="320" height="150" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="20" y="64" width="320" height="150" rx="18" fill="url(#acc)" opacity="0.18"/>
+  <text x="40" y="104" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Teen Patti + Ludo</text>
+  <text x="40" y="128" font-family="Inter, Arial, sans-serif" font-size="12" fill="#cbd5e1">Win real PKR � Daily bonuses</text>
+  <rect x="40" y="148" width="130" height="38" rx="10" fill="#10B981"/>
+  <text x="62" y="172" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="700" fill="#06130B">Play Now</text>
+
+  <!-- Card icons (big) -->
+  <g transform="translate(215, 90)">
+    <rect x="0" y="0" width="60" height="84" rx="8" fill="#ffffff"/>
+    <text x="8" y="20" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2626">A?</text>
+    <text x="36" y="76" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2626">A?</text>
+  </g>
+  <g transform="translate(250, 72) rotate(8)">
+    <rect x="0" y="0" width="60" height="84" rx="8" fill="#ffffff"/>
+    <text x="8" y="20" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#111827">K?</text>
+    <text x="36" y="76" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" fill="#111827">K?</text>
+  </g>
+
+  <!-- Game grid label -->
+  <text x="20" y="246" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Popular Games</text>
+  <text x="300" y="246" font-family="Inter, Arial, sans-serif" font-size="11" fill="#10B981">See all</text>
+
+  <!-- Game tiles -->
+  <g font-family="Inter, Arial, sans-serif" font-size="11" fill="#e5e7eb">
+    <rect x="20" y="258" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="70" cy="300" r="22" fill="#F5B400" opacity="0.45"/>
+    <text x="45" y="344" font-weight="700">Teen Patti</text>
+
+    <rect x="130" y="258" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g transform="translate(150,278)">
+      <rect width="60" height="60" rx="6" fill="#10B981" opacity="0.3"/>
+      <rect x="4" y="4" width="26" height="26" fill="#dc2626" opacity="0.75"/>
+      <rect x="30" y="4" width="26" height="26" fill="#16a34a" opacity="0.85"/>
+      <rect x="4" y="30" width="26" height="26" fill="#F5B400" opacity="0.85"/>
+      <rect x="30" y="30" width="26" height="26" fill="#2563eb" opacity="0.75"/>
+    </g>
+    <text x="165" y="344" font-weight="700">Ludo</text>
+
+    <rect x="240" y="258" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="266" y="306" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="800" fill="#10B981">DT</text>
+    <text x="253" y="344" font-weight="700">Dragon Tiger</text>
+
+    <rect x="20" y="370" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="50" y="418" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="800" fill="#F5B400">AB</text>
+    <text x="37" y="456" font-weight="700">Andar Bahar</text>
+
+    <rect x="130" y="370" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="180" cy="412" r="22" fill="#10B981" opacity="0.35"/>
+    <text x="173" y="418" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="800" fill="#ffffff">R</text>
+    <text x="155" y="456" font-weight="700">Rummy</text>
+
+    <rect x="240" y="370" width="100" height="100" rx="14" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="270" y="418" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="800" fill="#FBBF24">??</text>
+    <text x="265" y="456" font-weight="700">Mines</text>
+  </g>
+
+  <!-- Bottom CTA bar -->
+  <rect x="20" y="486" width="320" height="80" rx="16" fill="#0E1E15" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="36" y="516" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Daily Bonus Ready!</text>
+  <text x="36" y="538" font-family="Inter, Arial, sans-serif" font-size="11" fill="#94A3B8">Log in daily for free chips + PKR</text>
+  <rect x="232" y="508" width="92" height="36" rx="10" fill="#10B981"/>
+  <text x="254" y="531" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="700" fill="#06130B">Claim</text>
+
+  <!-- Nav -->
+  <rect x="20" y="582" width="320" height="44" rx="14" fill="#ffffff" opacity="0.04"/>
+  <circle cx="60" cy="604" r="6" fill="#10B981"/>
+  <circle cx="130" cy="604" r="6" fill="#ffffff" opacity="0.4"/>
+  <circle cx="200" cy="604" r="6" fill="#ffffff" opacity="0.4"/>
+  <circle cx="270" cy="604" r="6" fill="#ffffff" opacity="0.4"/>
+</svg>

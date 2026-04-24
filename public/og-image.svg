@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06130B"/>
+      <stop offset="100%" stop-color="#0D2818"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#F5B400"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="260" cy="220" r="360" fill="url(#glow)"/>
+  <circle cx="980" cy="480" r="320" fill="#F5B400" opacity="0.16"/>
+
+  <rect x="64" y="64" width="80" height="80" rx="18" fill="url(#acc)"/>
+  <text x="82" y="120" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="800" fill="#06130B">3P</text>
+
+  <text x="168" y="120" font-family="Poppins, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff">3 Patti Ludo</text>
+
+  <text x="64" y="250" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff">
+    3 Patti Ludo APK
+  </text>
+  <text x="64" y="330" font-family="Poppins, Arial, sans-serif" font-size="40" font-weight="800" fill="#F5B400">
+    Download Latest Version for Android
+  </text>
+
+  <text x="64" y="396" font-family="Inter, Arial, sans-serif" font-size="26" fill="#cbd5e1">
+    Teen Patti + Ludo + 20 more games. Instant JazzCash &amp; Easypaisa payouts.
+  </text>
+
+  <rect x="64" y="440" width="260" height="64" rx="14" fill="#10B981"/>
+  <text x="110" y="482" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="800" fill="#06130B">Install APK</text>
+
+  <rect x="340" y="440" width="220" height="64" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="374" y="482" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">How it Works</text>
+
+  <!-- Playing cards -->
+  <g transform="translate(860, 160) rotate(-10)">
+    <rect width="160" height="224" rx="16" fill="#ffffff"/>
+    <text x="20" y="54" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#dc2626">A♥</text>
+    <text x="110" y="200" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#dc2626">A♥</text>
+  </g>
+  <g transform="translate(980, 220) rotate(8)">
+    <rect width="160" height="224" rx="16" fill="#ffffff"/>
+    <text x="20" y="54" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#111827">K♠</text>
+    <text x="110" y="200" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#111827">K♠</text>
+  </g>
+
+  <text x="64" y="576" font-family="Inter, Arial, sans-serif" font-size="20" fill="#94A3B8">3pattiludoapk.com • Safe &amp; Secure • 18+</text>
+</svg>
