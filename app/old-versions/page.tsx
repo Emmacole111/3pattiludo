@@ -100,14 +100,14 @@ export default function OldVersionsPage() {
         </div>
 
         {/* Old versions showcase image */}
-        <figure className="overflow-hidden rounded-2xl border border-white/10 shadow-glow">
+        <figure className="flex justify-center">
           <Image
             src="/3-patti-ludo-old-versions.png"
             alt="3 Patti Ludo old versions — APK version history and changelog"
-            width={1280}
-            height={320}
-            className="w-full object-cover max-h-52"
-            sizes="(max-width: 768px) 100vw, 1280px"
+            width={640}
+            height={300}
+            className="rounded-2xl border border-white/10 shadow-glow object-cover"
+            sizes="(max-width: 768px) 100vw, 640px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">
             3 Patti Ludo APK version history — from v2.0 to the latest v5.2.1

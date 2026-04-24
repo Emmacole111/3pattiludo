@@ -149,15 +149,15 @@ export default function GamesPage() {
     >
       <section className="container-page py-14">
         {/* Games showcase banner */}
-        <figure className="mb-10 overflow-hidden rounded-2xl border border-white/10 shadow-glow">
+        <figure className="mb-10 flex justify-center">
           <Image
             src="/3-patti-ludo-games.webp"
             alt="3 Patti Ludo games — 50+ games including Teen Patti, Ludo, Dragon Tiger and more"
-            width={1280}
-            height={320}
+            width={640}
+            height={300}
             priority
-            className="w-full object-cover max-h-52"
-            sizes="(max-width: 768px) 100vw, 1280px"
+            className="rounded-2xl border border-white/10 shadow-glow object-cover"
+            sizes="(max-width: 768px) 100vw, 640px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">
             50+ games available on 3 Patti Ludo — all in one app with real PKR rewards

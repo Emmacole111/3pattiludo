@@ -92,15 +92,15 @@ export default function ForPcPage() {
     >
       <div className="container-page py-14 space-y-14">
         {/* PC showcase image */}
-        <figure className="overflow-hidden rounded-2xl border border-white/10 shadow-glow">
+        <figure className="flex justify-center">
           <Image
             src="/3-patti-ludo-for-pc.webp"
             alt="3 Patti Ludo for PC — play Teen Patti and Ludo on Windows and Mac using BlueStacks"
-            width={1280}
-            height={320}
+            width={640}
+            height={300}
             priority
-            className="w-full object-cover max-h-52"
-            sizes="(max-width: 768px) 100vw, 1280px"
+            className="rounded-2xl border border-white/10 shadow-glow object-cover"
+            sizes="(max-width: 768px) 100vw, 640px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">
             3 Patti Ludo running on PC via Android emulator — full HD, keyboard shortcuts, multi-instance support

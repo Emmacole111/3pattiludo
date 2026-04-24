@@ -71,7 +71,7 @@ export default function BlogPage() {
           </div>
 
           {/* Right: real image */}
-          <div className="relative min-h-[150px] sm:flex-1 overflow-hidden">
+          <div className="relative min-h-[140px] sm:flex-1 overflow-hidden">
             <Image
               src={featured.image}
               alt={featured.imageAlt}
@@ -96,7 +96,7 @@ export default function BlogPage() {
                 className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-card/60 transition-all hover:-translate-y-1 hover:border-accent/30 hover:shadow-glow"
               >
                 {/* Card thumbnail */}
-                <div className="relative h-32 overflow-hidden">
+                <div className="relative h-28 overflow-hidden">
                   <Image
                     src={post.image}
                     alt={post.imageAlt}

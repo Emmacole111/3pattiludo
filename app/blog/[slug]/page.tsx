@@ -247,18 +247,17 @@ export default async function BlogPostPage({
 
         {/* ── Hero image ── */}
         <div className="container-page pt-8">
-          <figure className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
-            <div className="relative w-full" style={{ aspectRatio: "16/5" }}>
+          <figure className="flex justify-center">
+            <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
               <Image
                 src={post.image}
                 alt={post.imageAlt}
-                fill
+                width={700}
+                height={350}
                 priority
-                sizes="(max-width: 768px) 100vw, 1200px"
+                sizes="(max-width: 768px) 100vw, 700px"
                 className="object-cover"
               />
-              {/* Subtle bottom gradient so text below reads cleanly */}
-              <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-bg to-transparent" />
             </div>
           </figure>
         </div>
