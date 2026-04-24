@@ -40,7 +40,7 @@ export default function BlogPage() {
         {/* ── Featured post ── */}
         <Link
           href={`/blog/${featured.slug}`}
-          className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 transition-all hover:border-accent/30 hover:shadow-glow sm:flex-row sm:min-h-[320px]"
+          className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 transition-all hover:border-accent/30 hover:shadow-glow sm:flex-row sm:min-h-[200px]"
           style={{ background: "linear-gradient(135deg, #0e2418, #06130b)" }}
         >
           {/* Left: text content */}
@@ -71,7 +71,7 @@ export default function BlogPage() {
           </div>
 
           {/* Right: real image */}
-          <div className="relative min-h-[220px] sm:flex-1 overflow-hidden">
+          <div className="relative min-h-[150px] sm:flex-1 overflow-hidden">
             <Image
               src={featured.image}
               alt={featured.imageAlt}
@@ -96,7 +96,7 @@ export default function BlogPage() {
                 className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-card/60 transition-all hover:-translate-y-1 hover:border-accent/30 hover:shadow-glow"
               >
                 {/* Card thumbnail */}
-                <div className="relative h-44 overflow-hidden">
+                <div className="relative h-32 overflow-hidden">
                   <Image
                     src={post.image}
                     alt={post.imageAlt}

@@ -246,9 +246,9 @@ export default async function BlogPostPage({
         </section>
 
         {/* ── Hero image ── */}
-        <div className="container-page pt-10">
+        <div className="container-page pt-8">
           <figure className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
-            <div className="relative w-full" style={{ aspectRatio: "16/7" }}>
+            <div className="relative w-full" style={{ aspectRatio: "16/5" }}>
               <Image
                 src={post.image}
                 alt={post.imageAlt}
@@ -360,7 +360,7 @@ export default async function BlogPostPage({
                 href={`/blog/${rp.slug}`}
                 className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-card/60 transition-all hover:-translate-y-1 hover:border-accent/30 hover:shadow-glow"
               >
-                <div className="relative h-32 overflow-hidden">
+                <div className="relative h-24 overflow-hidden">
                   <Image
                     src={rp.image}
                     alt={rp.imageAlt}

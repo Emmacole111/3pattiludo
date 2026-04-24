@@ -105,8 +105,8 @@ export default function OldVersionsPage() {
             src="/3-patti-ludo-old-versions.png"
             alt="3 Patti Ludo old versions — APK version history and changelog"
             width={1280}
-            height={540}
-            className="w-full object-cover"
+            height={320}
+            className="w-full object-cover max-h-52"
             sizes="(max-width: 768px) 100vw, 1280px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">

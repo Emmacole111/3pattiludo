@@ -97,9 +97,9 @@ export default function ForPcPage() {
             src="/3-patti-ludo-for-pc.webp"
             alt="3 Patti Ludo for PC — play Teen Patti and Ludo on Windows and Mac using BlueStacks"
             width={1280}
-            height={540}
+            height={320}
             priority
-            className="w-full object-cover"
+            className="w-full object-cover max-h-52"
             sizes="(max-width: 768px) 100vw, 1280px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">

@@ -154,9 +154,9 @@ export default function GamesPage() {
             src="/3-patti-ludo-games.webp"
             alt="3 Patti Ludo games — 50+ games including Teen Patti, Ludo, Dragon Tiger and more"
             width={1280}
-            height={540}
+            height={320}
             priority
-            className="w-full object-cover"
+            className="w-full object-cover max-h-52"
             sizes="(max-width: 768px) 100vw, 1280px"
           />
           <figcaption className="border-t border-white/10 bg-card/60 px-4 py-2 text-xs text-slate-400">
