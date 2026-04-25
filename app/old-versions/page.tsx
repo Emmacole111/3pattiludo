@@ -181,7 +181,7 @@ export default function OldVersionsPage() {
         <div className="mt-10 rounded-xl border border-accent/25 bg-accent/5 p-5 text-sm text-slate-300">
           <strong className="text-white">Security note:</strong> All APK files listed here are the official releases.
           Verify the file hash after downloading and never install APKs from unknown third-party mirrors.
-          If in doubt, use the <a href={APK_URL} target="_blank" rel="noopener noreferrer" className="text-accent underline decoration-accent/40 underline-offset-4 hover:decoration-accent">official download page</a>.
+          If in doubt, use the <Link href="/download" className="text-accent underline decoration-accent/40 underline-offset-4 hover:decoration-accent">official download page</Link>.
         </div>
 
         {/* Related articles */}

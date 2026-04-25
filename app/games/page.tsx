@@ -186,14 +186,12 @@ export default function GamesPage() {
               <p className="text-sm leading-relaxed text-slate-300">{g.desc}</p>
               <div className="mt-3 flex items-center justify-between">
                 <span className="text-xs text-slate-400">{g.players} players</span>
-                <a
-                  href={APK_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/download"
                   className="rounded-lg bg-white/10 px-3 py-1 text-xs font-semibold text-white transition-colors hover:bg-accent hover:text-bg"
                 >
                   Play Now →
-                </a>
+                </Link>
               </div>
             </div>
           ))}

@@ -195,7 +195,7 @@ export default function ArticleBody() {
               the file from a trusted source. Many fake versions exist online,
               and they can compromise your data or prevent you from
               withdrawing your winnings. Always opt for the{" "}
-              <A href={APK_URL}>3 patti ludo apk latest version</A> from the
+              <A href="/download">3 patti ludo apk latest version</A> from the
               official website to ensure you get all the new features, bug
               fixes, and security updates.
             </Callout>
@@ -534,7 +534,7 @@ export default function ArticleBody() {
               <B>Pro tip:</B> Use the <B>same</B> phone number on your
               JazzCash / EasyPaisa as on your game account. This speeds up KYC
               and prevents withdrawal holds. Always download from the{" "}
-              <A href={APK_URL}>official APK page</A>.
+              <A href="/download">official APK page</A>.
             </Callout>
             <Callout tone="warning" icon="warning">
               <B>Scam alert:</B> The official app will <B>never</B> ask for
